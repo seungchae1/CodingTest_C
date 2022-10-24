@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int* solution(int score[], int score_len) {
-    int answer[score_len];
+    int answer[score_len]; //비주얼스튜디어로는 에러, 구름에듀에서는 정상 작동함
     for (int i = 0; i < score_len; i++) { answer[i] = score_len; }
     for (int i = 0; i < score_len; i++) {
         for (int j = 0; j < score_len; j++) {
